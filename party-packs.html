@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="The New AuroraWay">
+    <meta name="author" content="Kilian Peyron">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AuroraWay 2.0</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/responsive.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+<div class="AuroraWayNav" id="AuroraWayNav">
+        <a href="index.html"><div class="AuroraWayNavLogo"><img src="assets/logo.png" alt="AuroraWay"></div></a>
+        <a href="index.html" class="AuroraWayNavItem">Home</a>
+        <a href="economy.html" class="AuroraWayNavItem">Economy</a>
+        <a href="premium.html" class="AuroraWayNavItem">Premium</a>
+        <a href="party-packs.html" class="AuroraWayNavItem">Party Packs</a>
+        <a href="safety.html" class="AuroraWayNavItem">Safety</a>
+        <a href="faq.html" class="AuroraWayNavItem">FAQ</a>
+        <a href="contact.html" class="AuroraWayNavItem">Contact</a>
+        <a href="" class="AuroraWayNavItem"><i class='bx bx-search AuroraWayNavItem'></i></a>
+        <a href="login.html" class="AuroraWayLoginBtn AuroraWayNavItem">Login</a>
+        <a href="javascript:void(0);" class="hambIcon"><i class='bx bx-menu'></i></a>
+    </div>
+    <div class="AuroraWayRespMenu">
+        <ul>
+            <a href="index.html" class="AuroraWayNavItem">Home</a>
+            <a href="economy.html" class="AuroraWayNavItem">Economy</a>
+            <a href="premium.html" class="AuroraWayNavItem">Premium</a>
+            <a href="party-packs.html" class="AuroraWayNavItem">Party Packs</a>
+            <a href="safety.html" class="AuroraWayNavItem">Safety</a>
+            <a href="faq.html" class="AuroraWayNavItem">FAQ</a>
+            <a href="contact.html" class="AuroraWayNavItem">Contact</a>
+            <a href="" class="AuroraWayNavItem"><i class='bx bx-search AuroraWayNavItem'></i></a>
+            <a href="login.html" class="AuroraWayLoginBtn AuroraWayNavItem">Login</a>
+         </ul>
+    </div>
+    <div class="AuroraWayMain">
+        <h1 class="AuroraWayMainInDev">Soon.</h1>
+    </div>
+    <script>
+        const hamburger = document.querySelector(".hambIcon");
+        const navMenu = document.querySelector(".AuroraWayRespMenu");
+        hamburger.addEventListener("click", respMenu);
+        function respMenu() {
+          hamburger.classList.toggle("responsive");
+          navMenu.classList.toggle("responsive");
+        }
+    </script>
+</body>
+</html>

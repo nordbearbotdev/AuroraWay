@@ -1,0 +1,107 @@
+
+.hambIcon {
+    display: none;
+}
+
+@media screen and (max-width: 1060px) {
+    .AuroraWayNavItem {
+        display: none;
+    }
+    .AuroraWayNav {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .AuroraWayNavLogo {
+        margin-right: 200px;
+    }
+    .hambIcon {
+        display: block;
+    }
+    .AuroraWayTitleBar {
+        display: none;
+    }
+    .imgBg {
+        width: 200px;
+    }
+    .pre_imgBg {
+        width: 200px !important;
+    }
+    ._imgBg {
+        width: 75px !important;
+        height: 75px !important;
+    }
+    .AuroraWayHomeH1 {
+        font-size: 30px;
+    }
+    .AuroraWayMain {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+    .AuroraWayFaq {
+        margin-right: 75px;
+        margin-left: 75px;
+    }
+    .AuroraWayFaqQuestion {
+        font-size: 22px;
+    }
+    .AuroraWayFaqResponse {
+        font-size: 17px;
+    }
+    .AuroraWaySafety {
+        margin-right: 75px;
+        margin-left: 75px;
+    }
+}
+@media screen and (max-width: 580px) {
+    .AuroraWayMain {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .AuroraWayFaq {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .AuroraWayFaqQuestion {
+        font-size: 18px;
+    }
+    .AuroraWayFaqResponse {
+        font-size: 14px;
+    }
+    .AuroraWaySafety {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
+.responsive {display: block !important;}
+.AuroraWayRespMenu {
+    display: none;
+    width: 100%;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -15%);
+    padding: 2em;
+    background: #12171E;
+    border: 1px solid white;
+    z-index: 999;
+}
+ul .AuroraWayNavItem {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding-bottom: 15px;
+    text-align: center;
+}
+ul .AuroraWayLoginBtn {
+    font-family: "SFPro-Semibold";
+    padding: 3px 15px;
+    border: 2px solid white;
+    outline: none;
+    border-radius: 30px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    width: 70px;
+    margin: auto;
+}

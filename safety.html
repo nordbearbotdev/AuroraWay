@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="The New AuroraWay">
+    <meta name="author" content="Kilian Peyron">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AuroraWay 2.0</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/responsive.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+<div class="AuroraWayNav" id="AuroraWayNav">
+        <a href="index.html"><div class="AuroraWayNavLogo"><img src="assets/logo.png" alt="AuroraWay"></div></a>
+        <a href="index.html" class="AuroraWayNavItem">Home</a>
+        <a href="economy.html" class="AuroraWayNavItem">Economy</a>
+        <a href="premium.html" class="AuroraWayNavItem">Premium</a>
+        <a href="party-packs.html" class="AuroraWayNavItem">Party Packs</a>
+        <a href="safety.html" class="AuroraWayNavItem">Safety</a>
+        <a href="faq.html" class="AuroraWayNavItem">FAQ</a>
+        <a href="contact.html" class="AuroraWayNavItem">Contact</a>
+        <a href="" class="AuroraWayNavItem"><i class='bx bx-search AuroraWayNavItem'></i></a>
+        <a href="login.html" class="AuroraWayLoginBtn AuroraWayNavItem">Login</a>
+        <a href="javascript:void(0);" class="hambIcon"><i class='bx bx-menu'></i></a>
+    </div>
+    <div class="AuroraWayRespMenu">
+        <ul>
+            <a href="index.html" class="AuroraWayNavItem">Home</a>
+            <a href="economy.html" class="AuroraWayNavItem">Economy</a>
+            <a href="premium.html" class="AuroraWayNavItem">Premium</a>
+            <a href="party-packs.html" class="AuroraWayNavItem">Party Packs</a>
+            <a href="safety.html" class="AuroraWayNavItem">Safety</a>
+            <a href="faq.html" class="AuroraWayNavItem">FAQ</a>
+            <a href="contact.html" class="AuroraWayNavItem">Contact</a>
+            <a href="" class="AuroraWayNavItem"><i class='bx bx-search AuroraWayNavItem'></i></a>
+            <a href="login.html" class="AuroraWayLoginBtn AuroraWayNavItem">Login</a>
+         </ul>
+    </div>
+    <div class="AuroraWaySafety">
+        <h1 class="AuroraWaySafety1">Гайд по биткоин-транзакциям: как провести и ускорить их?</h1>
+        <h4 class="AuroraWaySafety2">Блокчейн Bitcoin — это своего рода децентрализованная база данных, в которой содержится информация обо всех действиях, проведенных ее участниками. Эти данные хранятся в блоках, записанных один за другим в хронологическом порядке. При этом каждый из них хранит данные о предыдущих блоках. Благодаря этому информацию в блокчейне нельзя отредактировать или удалить, ведь чтобы внести изменения, пришлось бы переписать его полностью с самого начала.
+
+            Биткоин-транзакция — это любая операция (действие пользователя) в сети Bitcoin. Это может быть, например, перевод монет с одного адреса на другой или использование смарт-контрактов. То есть отправка и получение биткоина — это и есть ВТС-транзакция. </h4>
+        <h1 class="AuroraWaySafety3">Как провести биткоин-транзакцию?</h1>
+        <h4 class="AuroraWaySafety4">Чтобы перевести биткоины, необходимо:
+
+        <h4 class="AuroraWaySafety4">1. Авторизоваться на бирже или в кошельке.</h4>
+            
+        <h4 class="AuroraWaySafety4">2. Ввести публичный адрес получателя и переводимую сумму.</h4>
+            
+        <h4 class="AuroraWaySafety4">3. Выбрать комиссию: она может быть рекомендованной, или же вы можете заплатить другую сумму на свой выбор. Чаще всего кошельки сами рассчитывают оптимальную комиссию. Уровень загруженности мемпула можно проверить в блокчейн-обозревателях (о них ниже).</h4>
+            
+        <h4 class="AuroraWaySafety4">4. Нажать «Перевести». В большинстве онлайн- и биржевых кошельков транзакция автоматически подпишется вашим приватным ключом. Если вы хотите узнать его, то скопируйте его себе на компьютер.</h4>
+            
+            </h4>
+        <h4 class="AuroraWaySafety4">Удачных покупок с AuroraWay !!!</h4>
+    </div>
+    <script>
+        const hamburger = document.querySelector(".hambIcon");
+        const navMenu = document.querySelector(".AuroraWayRespMenu");
+        hamburger.addEventListener("click", respMenu);
+        function respMenu() {
+          hamburger.classList.toggle("responsive");
+          navMenu.classList.toggle("responsive");
+        }
+    </script>
+</body>
+</html>
